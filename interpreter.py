@@ -1,5 +1,6 @@
 import re
 import math
+import sys
 
 class RevilangInterpreter:
     def __init__(self):
@@ -177,6 +178,11 @@ class RevilangInterpreter:
                 self.parse(line)
 
 if __name__ == "__main__":
-    filename = input("Masukkan nama file .rl: ")
+    if len(sys.argv) != 2:
+        print("Usage: python3 interpreter.py <filename.rl>")
+        sys.exit(1)
+
+    filename = sys.argv[1]
     interpreter = RevilangInterpreter()
     interpreter.run(filename)
+        
