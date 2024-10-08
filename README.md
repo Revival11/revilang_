@@ -1,4 +1,4 @@
-# Revilang Interpreter
+q# Revilang Interpreter
 
 ---
 
@@ -143,7 +143,7 @@ if /(number > 5) {
 
 1. Setelah mendownload interpreter **Revilang**, pindahkan file interpreter tersebut ke folder tempat kamu ingin mencoba menjalankan kode.
 2. Buat file dengan format **.rl** di folder yang sama. Tuliskan kode yang ingin kamu uji di file tersebut.
-3. Buka terminal atau Command Prompt, kemudian jalankan perintah berikut:
+3. Buka terminal, kemudian jalankan perintah berikut:
     python3 interpreter.py file_name.rl
 
    **Catatan**: Pastikan kamu sudah menginstall **Python** di sistemmu.
